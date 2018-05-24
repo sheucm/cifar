@@ -7,7 +7,9 @@ There are 50,000 training images and 10,000 testing images in cifar10 with 32x32
   and is seperated into 10 classes.
 This project simply implement a Convolutional Neural Network to learn these 10 categoreis.
 The result can be seen using tensorboard by typing
-'tensorboard --logdir /path/to/log'
+```
+tensorboard --logdir /path/to/log
+```
 
 # Requriement
 - tensorflow 1.7 (cpu version)
