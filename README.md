@@ -2,11 +2,11 @@
 cifar training model using tensorflow
 
 # Overview 
-In this project, it build a model through tensorflow framework to learn cifar10 dataset.
-There are 50,000 training images and 10,000 testing images in cifar10 with 32x32 size, 
+In this project, it build a model through tensorflow framework to learn cifar10 dataset. <br />
+There are 50,000 training images and 10,000 testing images in cifar10 with 32x32 size,
   and is seperated into 10 classes.
-This project simply implement a Convolutional Neural Network to learn these 10 categoreis.
-The result can be seen using tensorboard by typing
+This project simply implement a Convolutional Neural Network to learn these 10 categoreis. <br />
+The result can be seen using tensorboard by typing <br />
 ```
 tensorboard --logdir /path/to/log
 ```
@@ -27,6 +27,6 @@ tensorboard --logdir /path/to/log
 - stupid_hyper_main.py: stupid way to execute hyper_cifar.py
 
 # Results
-train accuracy: 90%
-test accuracy: 68%
+train accuracy: 90% <br />
+test accuracy: 68% <br />
 (overfitting)
